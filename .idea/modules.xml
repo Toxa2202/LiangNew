@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LIANG.iml" filepath="$PROJECT_DIR$/LIANG.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_10_ThinkingInObjects/chapter_10_ThinkingInObjects.iml" filepath="$PROJECT_DIR$/chapter_10_ThinkingInObjects/chapter_10_ThinkingInObjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_11_InheritanceAndPolymorphism/chapter_11_InheritanceAndPolymorphism.iml" filepath="$PROJECT_DIR$/chapter_11_InheritanceAndPolymorphism/chapter_11_InheritanceAndPolymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_12_GUI_Basics/chapter_12_GUI_Basics.iml" filepath="$PROJECT_DIR$/chapter_12_GUI_Basics/chapter_12_GUI_Basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_2/chapter_2.iml" filepath="$PROJECT_DIR$/chapter_2/chapter_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_3/chapter_3.iml" filepath="$PROJECT_DIR$/chapter_3/chapter_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_4_Loops/chapter_4_Loops.iml" filepath="$PROJECT_DIR$/chapter_4_Loops/chapter_4_Loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_5_Methods/chapter_5_Methods.iml" filepath="$PROJECT_DIR$/chapter_5_Methods/chapter_5_Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_6_SingleArrays/chapter_6_SingleArrays.iml" filepath="$PROJECT_DIR$/chapter_6_SingleArrays/chapter_6_SingleArrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_7_MultidimensionalArrays/chapter_7_MultidimensionalArrays.iml" filepath="$PROJECT_DIR$/chapter_7_MultidimensionalArrays/chapter_7_MultidimensionalArrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_8_ObjectsAndClasses/chapter_8_ObjectsAndClasses.iml" filepath="$PROJECT_DIR$/chapter_8_ObjectsAndClasses/chapter_8_ObjectsAndClasses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_9_Strings/chapter_9_Strings.iml" filepath="$PROJECT_DIR$/chapter_9_Strings/chapter_9_Strings.iml" />
+    </modules>
+  </component>
+</project>
