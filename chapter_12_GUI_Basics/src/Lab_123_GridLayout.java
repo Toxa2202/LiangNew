@@ -1,10 +1,10 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class Lab_122_UseTheBorderLayoutManager extends JFrame {
-    // Same as in the Previous Lab, but with BorderLayout
-    public Lab_122_UseTheBorderLayoutManager() {
-        setLayout(new BorderLayout());
+public class Lab_123_GridLayout extends JFrame {
+    // Same as previous Labs, but with the GridLayout
+    public Lab_123_GridLayout() {
+        setLayout(new GridLayout(2, 3));
 
         JPanel p1 = new JPanel();
         p1.add(new JButton("Button 1"));
@@ -16,13 +16,13 @@ public class Lab_122_UseTheBorderLayoutManager extends JFrame {
         p2.add(new JButton("Button 5"));
         p2.add(new JButton("Button 6"));
 
-        add(p1, BorderLayout.SOUTH);
-        add(p2, BorderLayout.CENTER);
+        add(p1);
+        add(p2);
     }
 
     public static void main(String[] args) {
-        Lab_122_UseTheBorderLayoutManager frame = new Lab_122_UseTheBorderLayoutManager();
-        frame.setTitle("Excercise 12_2");
+        Lab_123_GridLayout frame = new Lab_123_GridLayout();
+        frame.setTitle("Excercise 12_3");
         frame.setSize(300, 110);
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
