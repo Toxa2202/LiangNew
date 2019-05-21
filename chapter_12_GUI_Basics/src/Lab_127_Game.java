@@ -19,7 +19,7 @@ public class Lab_127_Game extends JFrame {
             // OR
             } else {
                 // Add randomly choosen gif image from TicTacToe folder
-                add(new JLabel(new ImageIcon("resources/images/TicTacToe/" +
+                add(new JLabel(new ImageIcon("resources/image/TicTacToe/" +
                         (rand == 1 ? "o" : "x") + ".gif")));
             }
         }

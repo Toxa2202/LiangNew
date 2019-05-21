@@ -1,5 +1,3 @@
-package Lab_126_DisplayIcons;
-
 import javax.swing.*;
 import javax.swing.border.LineBorder;
 import java.awt.*;
@@ -10,10 +8,10 @@ public class Lab_126_DisplayIcons extends JFrame {
     public Lab_126_DisplayIcons() {
         setLayout(new GridLayout(2, 2, 0, 0));
         // Did not see images. Must to provide whole path to those images
-        JLabel jlbl1 = new JLabel(new ImageIcon("resources/images/flags/england.jpg"));
-        JLabel jlbl2 = new JLabel(new ImageIcon("resources/images/flags/france.jpg"));
-        JLabel jlbl3 = new JLabel(new ImageIcon("resources/images/flags/norway.jpg"));
-        JLabel jlbl4 = new JLabel(new ImageIcon("resources/images/flags/puertorico.jpg"));
+        JLabel jlbl1 = new JLabel(new ImageIcon("resources/image/flags/england.jpg"));
+        JLabel jlbl2 = new JLabel(new ImageIcon("resources/image/flags/france.jpg"));
+        JLabel jlbl3 = new JLabel(new ImageIcon("resources/image/flags/norway.jpg"));
+        JLabel jlbl4 = new JLabel(new ImageIcon("resources/image/flags/puertorico.jpg"));
 
         jlbl1.setBorder(new LineBorder(Color.BLACK));
         jlbl2.setBorder(new LineBorder(Color.BLACK));
