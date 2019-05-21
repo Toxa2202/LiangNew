@@ -28,7 +28,7 @@ public class Lab_127_Game extends JFrame {
     public static void main(String[] args) {
         // In main method we create main frame for all our elements
         Lab_127_Game frame = new Lab_127_Game(); // Create object Frame
-        frame.setTitle("Excercise 12_7"); // Set name
+        frame.setTitle("Excercise12_7"); // Set name
         frame.setSize(200, 200); // Set size
         frame.setLocationRelativeTo(null); // Set location to center
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Set action on close

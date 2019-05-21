@@ -30,7 +30,7 @@ public class Lab_128_SwingCommonFeatures extends JFrame {
     public static void main(String[] args) {
         // Create main frame
         Lab_128_SwingCommonFeatures frame = new Lab_128_SwingCommonFeatures();
-        frame.setTitle("Excercise 12_8");
+        frame.setTitle("Excercise12_8");
         frame.setSize(300, 200);
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

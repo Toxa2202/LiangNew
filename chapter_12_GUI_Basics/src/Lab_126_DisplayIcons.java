@@ -26,7 +26,7 @@ public class Lab_126_DisplayIcons extends JFrame {
 
     public static void main(String[] args) {
         Lab_126_DisplayIcons frame = new Lab_126_DisplayIcons();
-        frame.setTitle("Excercise 12_6");
+        frame.setTitle("Excercise12_6");
         frame.setSize(200, 200);
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

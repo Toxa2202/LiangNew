@@ -25,7 +25,7 @@ public class Lab_129_GameDisplayThreeCards extends JFrame {
     public static void main(String[] args) {
         // Create typical frame
         Lab_129_GameDisplayThreeCards frame = new Lab_129_GameDisplayThreeCards();
-        frame.setTitle("Excercise 12_9");
+        frame.setTitle("Excercise12_9");
         frame.setSize(300, 200);
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
