@@ -10,10 +10,10 @@ public class Lab_126_DisplayIcons extends JFrame {
     public Lab_126_DisplayIcons() {
         setLayout(new GridLayout(2, 2, 0, 0));
         // Did not see images. Must to provide whole path to those images
-        JLabel jlbl1 = new JLabel(new ImageIcon("D:/JAVA/LIANG/chapter_12_GUI_Basics/src/images/england.jpg"));
-        JLabel jlbl2 = new JLabel(new ImageIcon("D:/JAVA/LIANG/chapter_12_GUI_Basics/src/images/france.jpg"));
-        JLabel jlbl3 = new JLabel(new ImageIcon("D:/JAVA/LIANG/chapter_12_GUI_Basics/src/images/norway.jpg"));
-        JLabel jlbl4 = new JLabel(new ImageIcon("D:/JAVA/LIANG/chapter_12_GUI_Basics/src/images/puertorico.jpg"));
+        JLabel jlbl1 = new JLabel(new ImageIcon("resources/images/flags/england.jpg"));
+        JLabel jlbl2 = new JLabel(new ImageIcon("resources/images/flags/france.jpg"));
+        JLabel jlbl3 = new JLabel(new ImageIcon("resources/images/flags/norway.jpg"));
+        JLabel jlbl4 = new JLabel(new ImageIcon("resources/images/flags/puertorico.jpg"));
 
         jlbl1.setBorder(new LineBorder(Color.BLACK));
         jlbl2.setBorder(new LineBorder(Color.BLACK));
