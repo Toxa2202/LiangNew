@@ -18,16 +18,17 @@ public class Lab_131_DisplayA3x3Grid extends JFrame {
         frame.setVisible(true);
     }
 
-    class NewPanel extends JPanel {
-        @Override
-        protected void paintComponent(Graphics g){
-            super.paintComponent(g);
-            g.setColor(Color.BLUE);
-            g.drawLine(0, 50, 300, 50);
-            g.drawLine(0, 100, 300, 100);
-            g.setColor(Color.RED);
-            g.drawLine(100, 0, 100, 200);
-            g.drawLine(200, 0, 200, 200);
-        }
+}
+
+class NewPanel extends JPanel {
+    @Override
+    protected void paintComponent(Graphics g){
+        super.paintComponent(g);
+        g.setColor(Color.BLUE);
+        g.drawLine(0, 50, 300, 50);
+        g.drawLine(0, 100, 300, 100);
+        g.setColor(Color.RED);
+        g.drawLine(100, 0, 100, 200);
+        g.drawLine(200, 0, 200, 200);
     }
 }
