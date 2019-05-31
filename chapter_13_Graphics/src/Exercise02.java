@@ -4,16 +4,16 @@ import java.awt.*;
 /**
  * Created by anton.sviatov on 27.05.2019.
  */
-public class Lab_132_CreateACustomButtonClass extends JFrame {
+public class Exercise02 extends JFrame {
 
-    public Lab_132_CreateACustomButtonClass() {
+    public Exercise02() {
         setLayout(new FlowLayout(FlowLayout.CENTER, 5, 5));
         add(new OvalButton("OK"));
         add(new OvalButton("Cancel"));
     }
 
     public static void main(String[] args) {
-        Lab_132_CreateACustomButtonClass frame = new Lab_132_CreateACustomButtonClass();
+        Exercise02 frame = new Exercise02();
         frame.setTitle("Excercise13_2");
         frame.setSize(500, 150);
         frame.setLocationRelativeTo(null);

@@ -4,13 +4,13 @@ import java.awt.*;
 /**
  * Created by anton.sviatov on 27.05.2019.
  */
-public class Lab_131_DisplayA3x3Grid extends JFrame {
-    public Lab_131_DisplayA3x3Grid() {
+public class Exercise01 extends JFrame {
+    public Exercise01() {
         add(new NewPanel());
     }
 
     public static void main(String[] args) {
-        Lab_131_DisplayA3x3Grid frame = new Lab_131_DisplayA3x3Grid();
+        Exercise01 frame = new Exercise01();
         frame.setTitle("Excercise13_1");
         frame.setSize(300, 200);
         frame.setLocationRelativeTo(null);

@@ -4,8 +4,8 @@ import java.awt.*;
 /**
  * Created by anton.sviatov on 28.05.2019.
  */
-public class Lab_137_TicTacToeBoard extends JFrame {
-    public Lab_137_TicTacToeBoard() {
+public class Exercise07 extends JFrame {
+    public Exercise07() {
         setLayout(new GridLayout(3, 3, 5, 5));
 
         int size = 9;
@@ -15,7 +15,7 @@ public class Lab_137_TicTacToeBoard extends JFrame {
     }
 
     public static void main(String[] args) {
-        Lab_137_TicTacToeBoard frame = new Lab_137_TicTacToeBoard();
+        Exercise07 frame = new Exercise07();
         frame.setTitle("Exercise13_7");
         frame.setSize(300, 300);
         frame.setLocationRelativeTo(null);

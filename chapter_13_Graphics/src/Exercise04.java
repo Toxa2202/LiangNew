@@ -4,12 +4,12 @@ import java.awt.*;
 /**
  * Created by anton.sviatov on 27.05.2019.
  */
-public class Lab_134_DisplayAMultiplicationTable extends JFrame {
-    public Lab_134_DisplayAMultiplicationTable() {
+public class Exercise04 extends JFrame {
+    public Exercise04() {
         add(new MultiplPanel());
     }
     public static void main(String[] args) {
-        Lab_134_DisplayAMultiplicationTable frame = new Lab_134_DisplayAMultiplicationTable();
+        Exercise04 frame = new Exercise04();
         frame.setTitle("Exercise13_4");
         frame.setSize(400, 400);
         frame.setLocationRelativeTo(null);

@@ -4,13 +4,13 @@ import java.awt.*;
 /**
  * Created by anton.sviatov on 28.05.2019.
  */
-public class Lab_138_Octagonal extends JFrame {
-    public Lab_138_Octagonal() {
+public class Exercise08 extends JFrame {
+    public Exercise08() {
         add(new OctagonalPanel());
     }
 
     public static void main(String[] args) {
-        Lab_138_Octagonal frame = new Lab_138_Octagonal();
+        Exercise08 frame = new Exercise08();
         frame.setTitle("Exercise13_8");
         frame.setSize(300, 300);
         frame.setLocationRelativeTo(null);

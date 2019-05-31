@@ -4,8 +4,8 @@ import java.awt.*;
 /**
  * Created by anton.sviatov on 28.05.2019.
  */
-public class Lab_136_ImproveFigurePanel extends JFrame {
-    public Lab_136_ImproveFigurePanel() {
+public class Exercise06 extends JFrame {
+    public Exercise06() {
         setLayout(new GridLayout(2, 2, 5, 5));
         add(new FigurePanel(FigurePanel.ARC));
         add(new FigurePanel(FigurePanel.POLYGON));
@@ -14,7 +14,7 @@ public class Lab_136_ImproveFigurePanel extends JFrame {
     }
 
     public static void main(String[] args) {
-        Lab_136_ImproveFigurePanel frame = new Lab_136_ImproveFigurePanel();
+        Exercise06 frame = new Exercise06();
         frame.setTitle("Exercise13_6");
         frame.setSize(300, 300);
         frame.setLocationRelativeTo(null);

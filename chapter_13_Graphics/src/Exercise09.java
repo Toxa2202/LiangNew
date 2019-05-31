@@ -4,8 +4,8 @@ import java.awt.*;
 /**
  * Created by anton.sviatov on 28.05.2019.
  */
-public class Lab_139_CreateFourFans extends JFrame {
-    public Lab_139_CreateFourFans() {
+public class Exercise09 extends JFrame {
+    public Exercise09() {
         setLayout(new GridLayout(2, 2, 5, 5));
         int size = 4;
         for (int i = 0; i < size; i++) {
@@ -14,7 +14,7 @@ public class Lab_139_CreateFourFans extends JFrame {
     }
 
     public static void main(String[] args) {
-        Lab_139_CreateFourFans frame = new Lab_139_CreateFourFans();
+        Exercise09 frame = new Exercise09();
         frame.setTitle("Exercise13_9");
         frame.setSize(300, 300);
         frame.setLocationRelativeTo(null);

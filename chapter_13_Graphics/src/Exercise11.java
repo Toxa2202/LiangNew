@@ -4,13 +4,13 @@ import java.awt.*;
 /**
  * Created by anton.sviatov on 29.05.2019.
  */
-public class Lab_1311_SquareFunction extends JFrame {
-    public Lab_1311_SquareFunction() {
+public class Exercise11 extends JFrame {
+    public Exercise11() {
         add(new PoliDiagram());
     }
 
     public static void main(String[] args) {
-        Lab_1311_SquareFunction frame = new Lab_1311_SquareFunction();
+        Exercise11 frame = new Exercise11();
         frame.setTitle("Exercise13_11");
         frame.setSize(417, 260);
         frame.setLocationRelativeTo(null);

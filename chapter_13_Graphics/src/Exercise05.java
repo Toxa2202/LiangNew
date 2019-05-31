@@ -4,14 +4,14 @@ import java.awt.*;
 /**
  * Created by anton.sviatov on 27.05.2019.
  */
-public class Lab_135_TriangularPattern extends JFrame {
-    public Lab_135_TriangularPattern() {
+public class Exercise05 extends JFrame {
+    public Exercise05() {
         add(new TriangularPanel());
     }
 
 
     public static void main(String[] args) {
-        Lab_135_TriangularPattern frame = new Lab_135_TriangularPattern();
+        Exercise05 frame = new Exercise05();
         frame.setTitle("Exercise13_5");
         frame.setSize(300,300);
         frame.setLocationRelativeTo(null);

@@ -4,13 +4,13 @@ import java.awt.*;
 /**
  * Created by anton.sviatov on 28.05.2019.
  */
-public class Lab_1310_DisplayACylinder extends JFrame {
-    public Lab_1310_DisplayACylinder() {
+public class Exercise10 extends JFrame {
+    public Exercise10() {
         add(new CylinderLabel());
     }
 
     public static void main(String[] args) {
-        Lab_1310_DisplayACylinder frame = new Lab_1310_DisplayACylinder();
+        Exercise10 frame = new Exercise10();
         frame.setTitle("Exercise13_10");
         frame.setSize(300, 300);
         frame.setLocationRelativeTo(null);

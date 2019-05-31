@@ -4,12 +4,12 @@ import java.awt.*;
 /**
  * Created by anton.sviatov on 27.05.2019.
  */
-public class Lab_133_CreateCheckerBoard extends JFrame {
-    public  Lab_133_CreateCheckerBoard() {
+public class Exercise03 extends JFrame {
+    public Exercise03() {
         add(new MyPanel());
     }
     public static void main(String[] args) {
-        Lab_133_CreateCheckerBoard frame = new Lab_133_CreateCheckerBoard();
+        Exercise03 frame = new Exercise03();
         frame.setTitle("Exercise13_3");
         frame.setSize(340, 360);
         frame.setLocationRelativeTo(null);

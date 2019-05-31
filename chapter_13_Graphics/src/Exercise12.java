@@ -1,17 +1,15 @@
-import javafx.scene.shape.Polyline;
-
 import javax.swing.*;
 import java.awt.*;
 
 /**
  * Created by anton.sviatov on 29.05.2019.
  */
-public class Lab_1312_SineCosineFunctions extends JFrame {
-    public Lab_1312_SineCosineFunctions() {
+public class Exercise12 extends JFrame {
+    public Exercise12() {
         add(new SinCosFunc());
     }
     public static void main(String[] args) {
-        Lab_1312_SineCosineFunctions frame = new Lab_1312_SineCosineFunctions();
+        Exercise12 frame = new Exercise12();
         frame.setTitle("Exercise13_12");
         frame.setSize(470, 210);
         frame.setLocationRelativeTo(null);
