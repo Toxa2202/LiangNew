@@ -13,5 +13,16 @@
       <entry name="!?*.aj" />
       <entry name="!?*.gif" />
     </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sqlcmdtest-engine" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sqlcmdtest-engine" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
