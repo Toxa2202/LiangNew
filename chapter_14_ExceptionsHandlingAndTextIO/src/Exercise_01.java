@@ -10,18 +10,29 @@ public class Exercise_01 {
 
         int result = 0;
         String[] tokens = args[0].split(" ");
+        int x;
+        int y;
+
         try {
-            switch (tokens[1].charAt(0)) {
-                case '+': result = Integer.parseInt(tokens[0]) + Integer.parseInt(tokens[2]);
-                    break;
-                case '-': result = Integer.parseInt(tokens[0]) - Integer.parseInt(tokens[2]);
-                    break;
-                case '*': result = Integer.parseInt(tokens[0]) * Integer.parseInt(tokens[2]);
-                    break;
-                case '/': result = Integer.parseInt(tokens[0]) / Integer.parseInt(tokens[2]);
-            }
+            x = Integer.parseInt(tokens[0]);
         } catch (NumberFormatException e) {
-            throw new NumberFormatException();
+            throw new NumberFormatException(tokens[0]);
+        }
+
+        try {
+            y = Integer.parseInt(tokens[2]);
+        } catch (NumberFormatException e) {
+            throw new NumberFormatException(tokens[2]);
+        }
+
+        switch (tokens[1].charAt(0)) {
+            case '+': result = x + y;
+                break;
+            case '-': result = x - y;
+                break;
+            case '*': result = x * y;
+                break;
+            case '/': result = x / y;
         }
 
         try {
