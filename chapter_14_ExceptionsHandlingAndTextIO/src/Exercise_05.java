@@ -47,15 +47,15 @@ class Triangle extends GeometricObject {
     }
 
     private void checkTriangle() throws IllegalTriangleException {
-        if (side1 + side2 <= side3) {
+        if (side1 + side2 < side3) {
             throw new IllegalTriangleException(side3, side1, side2);
         }
 
-        if (side1 + side3 <= side2) {
+        if (side1 + side3 < side2) {
             throw new IllegalTriangleException(side2, side1, side3);
         }
 
-        if (side3 + side2 <= side1) {
+        if (side3 + side2 < side1) {
             throw new IllegalTriangleException(side1, side3, side2);
         }
     }
