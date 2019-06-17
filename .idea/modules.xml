@@ -3,19 +3,19 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LIANG.iml" filepath="$PROJECT_DIR$/LIANG.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_02/chapter_02.iml" filepath="$PROJECT_DIR$/chapter_02/chapter_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_03/chapter_03.iml" filepath="$PROJECT_DIR$/chapter_03/chapter_03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_04_Loops/chapter_04_Loops.iml" filepath="$PROJECT_DIR$/chapter_04_Loops/chapter_04_Loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_05_Methods/chapter_05_Methods.iml" filepath="$PROJECT_DIR$/chapter_05_Methods/chapter_05_Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_06_SingleArrays/chapter_06_SingleArrays.iml" filepath="$PROJECT_DIR$/chapter_06_SingleArrays/chapter_06_SingleArrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_07_MultidimensionalArrays/chapter_07_MultidimensionalArrays.iml" filepath="$PROJECT_DIR$/chapter_07_MultidimensionalArrays/chapter_07_MultidimensionalArrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_08_ObjectsAndClasses/chapter_08_ObjectsAndClasses.iml" filepath="$PROJECT_DIR$/chapter_08_ObjectsAndClasses/chapter_08_ObjectsAndClasses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_09_Strings/chapter_09_Strings.iml" filepath="$PROJECT_DIR$/chapter_09_Strings/chapter_09_Strings.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter_10_ThinkingInObjects/chapter_10_ThinkingInObjects.iml" filepath="$PROJECT_DIR$/chapter_10_ThinkingInObjects/chapter_10_ThinkingInObjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter_11_InheritanceAndPolymorphism/chapter_11_InheritanceAndPolymorphism.iml" filepath="$PROJECT_DIR$/chapter_11_InheritanceAndPolymorphism/chapter_11_InheritanceAndPolymorphism.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter_12_GUI_Basics/chapter_12_GUI_Basics.iml" filepath="$PROJECT_DIR$/chapter_12_GUI_Basics/chapter_12_GUI_Basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter_13_Graphics/chapter_13_Graphics.iml" filepath="$PROJECT_DIR$/chapter_13_Graphics/chapter_13_Graphics.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter_14_ExceptionsHandlingAndTextIO/chapter_14_ExceptionsHandlingAndTextIO.iml" filepath="$PROJECT_DIR$/chapter_14_ExceptionsHandlingAndTextIO/chapter_14_ExceptionsHandlingAndTextIO.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chapter_02/chapter_2.iml" filepath="$PROJECT_DIR$/chapter_02/chapter_2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chapter_03/chapter_3.iml" filepath="$PROJECT_DIR$/chapter_03/chapter_3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chapter_04_Loops/chapter_4_Loops.iml" filepath="$PROJECT_DIR$/chapter_04_Loops/chapter_4_Loops.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chapter_05_Methods/chapter_5_Methods.iml" filepath="$PROJECT_DIR$/chapter_05_Methods/chapter_5_Methods.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chapter_06_SingleArrays/chapter_6_SingleArrays.iml" filepath="$PROJECT_DIR$/chapter_06_SingleArrays/chapter_6_SingleArrays.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chapter_07_MultidimensionalArrays/chapter_7_MultidimensionalArrays.iml" filepath="$PROJECT_DIR$/chapter_07_MultidimensionalArrays/chapter_7_MultidimensionalArrays.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chapter_08_ObjectsAndClasses/chapter_8_ObjectsAndClasses.iml" filepath="$PROJECT_DIR$/chapter_08_ObjectsAndClasses/chapter_8_ObjectsAndClasses.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chapter_09_Strings/chapter_9_Strings.iml" filepath="$PROJECT_DIR$/chapter_09_Strings/chapter_9_Strings.iml" />
     </modules>
   </component>
 </project>
