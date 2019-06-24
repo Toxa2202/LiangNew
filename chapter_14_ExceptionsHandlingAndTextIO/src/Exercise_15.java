@@ -9,11 +9,12 @@ import java.util.Scanner;
 public class Exercise_15 {
     public static void main(String[] args) throws FileNotFoundException {
         final int SIZE = 100;
-        File file = new File("tmp/Exercise14_15.txt");
+        File file = new File("resources/txt/Exercise14_15.txt");
         PrintWriter output = new PrintWriter(file);
         // write to file 100 random integers
         for (int i = 0; i < SIZE; i++) {
-            output.print((int)(Math.random() * Integer.MAX_VALUE));
+            output.print((int)(Math.random() * Integer.MAX_VALUE) + " ");
+
         }
         output.close();
 
