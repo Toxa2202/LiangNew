@@ -1,4 +1,4 @@
-package Exercise01;
+package exercise01;
 
 import javax.swing.*;
 import java.awt.*;
@@ -23,7 +23,7 @@ public class Exercise01 extends JFrame {
         frame.setSize(1500, 800);
         frame.setDefaultCloseOperation(EXIT_ON_CLOSE);
         frame.setLocationRelativeTo(null);
-        frame.setTitle("Exercise01");
+        frame.setTitle("exercise01");
         frame.setVisible(true);
     }
 }

@@ -1,4 +1,4 @@
-package Exercise02;
+package exercise02;
 
 /**
  * Created by anton.sviatov on 19.07.2019.
