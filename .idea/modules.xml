@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/chapter_12_GUI_Basics/chapter_12_GUI_Basics.iml" filepath="$PROJECT_DIR$/chapter_12_GUI_Basics/chapter_12_GUI_Basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter_13_Graphics/chapter_13_Graphics.iml" filepath="$PROJECT_DIR$/chapter_13_Graphics/chapter_13_Graphics.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter_14_ExceptionsHandlingAndTextIO/chapter_14_ExceptionsHandlingAndTextIO.iml" filepath="$PROJECT_DIR$/chapter_14_ExceptionsHandlingAndTextIO/chapter_14_ExceptionsHandlingAndTextIO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_15_AbstractClassesAndInterfaces/chapter_15_AbstractClassesAndInterfaces.iml" filepath="$PROJECT_DIR$/chapter_15_AbstractClassesAndInterfaces/chapter_15_AbstractClassesAndInterfaces.iml" />
     </modules>
   </component>
 </project>
