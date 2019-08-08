@@ -4,7 +4,7 @@ import java.util.Set;
 /**
  * Created by anton.sviatov on 08.08.2019.
  */
-public class Exercise_01 {
+public class Exercise01 {
     public static void main(String[] args) {
         Set<String> textBooks1 = new HashSet<>();
         textBooks1.add("Chemistry");
